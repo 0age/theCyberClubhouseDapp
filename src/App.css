@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  font-size: 85%;
+  max-width: 536px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.App-header {
+  padding: 20px;
+  color: #0f0;
+  white-space: wrap;
+}
+
+.App-title {
+  font-size: 1.23em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 30px;
+}
+
+button {
+  font-family: "Lucida Console", Monaco, monospace;
+  background-color: black;
+  color: white;
+  font-size: 1.23em;
+  outline: none !important;
+}
+
+button:hover {
+  color: #0f0 !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.9; /* Firefox */
+}
+
+a:link {
+  color: lightblue;
+}
+
+a:visited {
+  color: plum;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+@keyframes flashAnimation {
+  0% {
+    color: tomato;
+  }
+  2% {
+    color: orange;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.flash {
+  animation-name: flashAnimation;
+  animation-duration: 5s;
+}
